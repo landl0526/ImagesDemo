@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:local="clr-namespace:ImagesDemo"
+             x:Class="ImagesDemo.MainPage">
+
+    <StackLayout Padding="0, 50, 0, 0">
+        <Label Text="Please click Store to download the internet images to local path then click retrieve to show that"/>
+        <Image x:Name="MyImage"/>
+        <Button Text="Store" Clicked="Button_Clicked"/>
+        <Button Text="Retrieve" Clicked="Button_Clicked_1"/>
+    </StackLayout>
+
+</ContentPage>
